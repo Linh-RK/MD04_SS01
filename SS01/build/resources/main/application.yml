@@ -1,0 +1,16 @@
+spring:
+    application:
+        name: modul04
+    datasource:
+        password: linh240370
+        url: jdbc:mysql://localhost:3306/ss01?createDatabaseIfNotExist=true
+        username: root
+    jooq:
+        sql-dialect: org.hibernate.dialect.MySQL8Dialect
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                show_sql: true
+                format_sql: true
